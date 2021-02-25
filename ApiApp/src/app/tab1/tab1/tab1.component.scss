@@ -1,0 +1,31 @@
+// :root {
+//     --ion-safe-area-top: 20px;
+//     --ion-safe-area-bottom: px;
+// }
+ion-col>div {
+    background-color: #f7f7f7;
+    border: solid 1px #ddd;
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+ion-title {
+    // background: #1cd96e;
+    background: linear-gradient(90deg, rgba(0, 241, 103, 1) 39%, rgba(0, 228, 255, 1) 72%);
+    height: 200px;
+}
+
+.titulo {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.icono {
+    align-self: flex-start;
+    width: 40px;
+    height: 40px;
+}

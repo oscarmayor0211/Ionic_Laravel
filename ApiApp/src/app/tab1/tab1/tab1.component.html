@@ -1,0 +1,30 @@
+<ion-app>
+
+    <ion-toolbar>
+        <ion-title>
+            <div>
+                <ion-icon name="person-circle-outline" class="icono"></ion-icon>
+            </div>
+            <div class="titulo">
+                <p>Categorias</p>
+            </div>
+
+        </ion-title>
+    </ion-toolbar>
+
+    <ion-content fullscreen>
+        <ion-grid>
+            <ion-row>
+                <ion-col ion-item *ngFor="let cate of categoria$">
+                    <div>
+                        <p>{{cate.name}}</p>
+                        <p>${{ cate.valor | number :'2.0-2'}}</p>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-content>
+</ion-app>
+
+
+<!--  <ion-header translucent> -->
